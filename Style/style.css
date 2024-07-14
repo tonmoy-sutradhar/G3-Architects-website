@@ -134,6 +134,8 @@ main > section {
 .fact-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-top: 45px;
+  /* border: 2px solid red; */
   /* gap: 120px; */
 }
 .fact-card {
@@ -167,11 +169,16 @@ main > section {
   .teams {
     flex-direction: column;
   }
-  .team-img-container {
+  .team-img-container,
+  .fact-container {
     grid-template-columns: repeat(1, 1fr);
   }
   .out-features {
     margin-left: 33px;
+  }
+  .fact-container {
+    justify-items: center;
+    gap: 20px;
   }
 }
 
