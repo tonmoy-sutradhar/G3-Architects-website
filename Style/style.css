@@ -126,6 +126,36 @@ main > section {
   font-size: 1rem;
 }
 
+/* Enjou and love section////////////////// */
+.love-enjoy {
+  gap: 100px;
+}
+
+#enjoy-border {
+  border-left: 5px solid #ff900e;
+  padding: 10px;
+}
+
+.enjoy-card {
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.enjoy-card .enjoy-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#enjoy-border {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+/* Enjou and love section////////////////// */
+
 /* Some fact section ..............................*/
 .some-facts {
   /* display: flex; */
