@@ -129,6 +129,7 @@ main > section {
 /* Enjou and love section////////////////// */
 .love-enjoy {
   gap: 100px;
+  /* border: 2px solid orange; */
 }
 
 #enjoy-border {
@@ -217,11 +218,28 @@ main > section {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 5px;
+  margin-bottom: 110px;
+  /* border: 2px solid red; */
 }
 
 /* .sopnsor-company img {
   filter: grayscale(100%);
 } */
+
+/* Footer section start //////////////////////////*/
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 100px;
+  background-color: #fff4e7;
+}
+footer p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+/* Footer section end //////////////////////////*/
 
 /* Responsive media query for mobile............... */
 @media screen and (max-width: 576px) {
