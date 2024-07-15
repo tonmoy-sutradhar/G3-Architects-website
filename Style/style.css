@@ -154,7 +154,18 @@ main > section {
   font-size: 2.4rem;
   font-weight: 700;
 }
-/* Enjou and love section////////////////// */
+#experience-badge {
+  padding: 40px 37px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -80px;
+  margin-top: -108px;
+}
+#Experience-year {
+  font-size: 4rem;
+  font-weight: 700;
+}
+/* Enjou and love section end////////////////// */
 
 /* Some fact section ..............................*/
 .some-facts {
@@ -216,6 +227,7 @@ main > section {
 @media screen and (max-width: 576px) {
   .navbar,
   .nav-link,
+  .love-enjoy,
   .teams {
     flex-direction: column;
   }
@@ -223,6 +235,9 @@ main > section {
   .fact-container,
   .sopnsor-company {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .love-enjoy img {
+    width: 100%;
   }
   .out-features {
     margin-left: 33px;
@@ -234,6 +249,10 @@ main > section {
   .sopnsor-company {
     justify-items: center;
     gap: 50px;
+  }
+  #experience-badge {
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
 
